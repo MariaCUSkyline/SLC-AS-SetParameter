@@ -8,12 +8,12 @@ The script requires the following input:
 
 ### ElementId [id: 2]
 	
+The id of the element that needs to be set.
+
 |Version | Description | Format | Example |
 |:---|:---|:---|:---|
-
-The id of the element that needs to be set.
-This needs to be formatted as "DMA Id/Element Id" (example: 100/10).
-
+|Initial Version| This can be used when the element ID input is set directly. |"DMA Id/Element Id"|100/10|
+|1.0.0.1|When it's used a feed for the element ID input.|["DMA Id/Element Id"]|["100/10"]
 ### ParameterId [id: 3]
 	
 The id of the write parameter (this can either be a standalone parameter or a table cell).
