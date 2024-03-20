@@ -8,6 +8,9 @@ The script requires the following input:
 
 ### ElementId [id: 2]
 	
+|Version | Description | Format | Example |
+|:---|:---|:---|:---|
+
 The id of the element that needs to be set.
 This needs to be formatted as "DMA Id/Element Id" (example: 100/10).
 
