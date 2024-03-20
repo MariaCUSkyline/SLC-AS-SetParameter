@@ -7,11 +7,9 @@ This repository contains an automation script that can be used to trigger a para
 The script requires the following input:
 
 ### ElementId [id: 2]
-
-| Version | Description | Format | Example |
-|:---|:---|:---| :---|
-|Initial version| This should be used in the case that the element ID is set directly as input. | "DMA Id/Element Id" | 100/10 |
-|1.0.0.1| Feed as an entry parameter for the element ID.| ["DMA Id/Element Id"]| ["100/10"]|
+	
+The id of the element that needs to be set.
+This needs to be formatted as "DMA Id/Element Id" (example: 100/10).
 
 ### ParameterId [id: 3]
 	
