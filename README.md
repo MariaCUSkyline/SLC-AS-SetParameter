@@ -12,8 +12,9 @@ The id of the element that needs to be set.
 
 |Version | Description | Format | Example |
 |:---|:---|:---|:---|
-|Initial Version| This can be used when the element ID input is set directly. |"DMA Id/Element Id"|100/10|
-|1.0.0.1|When it's used a feed for the element ID input.|["DMA Id/Element Id"]|["100/10"]
+|1.0.1| This can be used when the element ID input is set directly. |"DMA Id/Element Id"|100/10|
+|1.1.1|When it's used a feed for the element ID input.|["DMA Id/Element Id"]|["100/10"]
+
 ### ParameterId [id: 3]
 	
 The id of the write parameter (this can either be a standalone parameter or a table cell).
